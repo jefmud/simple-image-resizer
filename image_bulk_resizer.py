@@ -2,7 +2,7 @@ import cv2
 import os
 import argparse
 
-# construct the argument parse and parse the arguments
+# construct the argument parser and parse the arguments
 # since this is just a helper program, it is not particularly user friendly!
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--imagedir", required=True,
